@@ -340,6 +340,10 @@ form > :last-child {
   display: grid;
   gap: 1rem;
 }
+.col{
+ display: flex;
+ flex-direction: column;
+}
 .single-task {
   padding: 1rem 2.5rem;
   background: var(--white);
@@ -368,9 +372,9 @@ form > :last-child {
   color: var(--green-dark);
   visibility: hidden;
 }
-.task-completed h5 {
+/* .task-completed h5 {
   text-decoration: line-through;
-}
+} */
 .task-completed .fa-check-circle {
   visibility: visible;
 }
